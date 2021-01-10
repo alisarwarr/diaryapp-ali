@@ -1,0 +1,38 @@
+[
+    {
+        "title"       : "Favourite Enemy",
+        "privacy"     : "public",
+        "notes"       : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "id"          : 1,
+        "userId"      : 2,
+        "createdDate" : "03/12/2020",
+        "createdTime" : "8:15:00 PM"
+    },
+    {
+        "title"       : "Her Imaginations",
+        "privacy"     : "public",
+        "notes"       : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "id"          : 2,
+        "userId"      : 1,
+        "createdDate" : "05/12/2020",
+        "createdTime" : "2:45:00 PM"
+    },
+    {
+        "title"       : "King Killer",
+        "privacy"     : "private",
+        "notes"       : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "id"          : 3,
+        "userId"      : 1,
+        "createdDate" : "03/12/2020",
+        "createdTime" : "8:15:00 AM"
+    },
+    {
+        "title"       : "Passion Goal",
+        "privacy"     : "private",
+        "notes"       : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "id"          : 4,
+        "userId"      : 2,
+        "createdDate" : "07/12/2020",
+        "createdTime" : "10:00:00 PM"
+    }
+]

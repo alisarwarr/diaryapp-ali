@@ -1,0 +1,210 @@
+.userspage {
+    //for cover entire screen of any size
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    //for cover entire screen of any size
+
+    
+    display: flex;
+    flex-direction: column;
+
+
+    &_header {
+        flex: 0.1;
+
+        .header {
+            height: 4rem;
+            background-color: transparent !important;
+            .toolbar {
+                display: flex;
+                align-items: center;
+    
+                &_heading {
+                    flex: 1;
+                    font-family: myfont;
+                    font-size: 1.7rem;
+                    letter-spacing: 0.075rem;
+                    word-spacing: -0.0225rem;
+                    cursor: pointer;
+                }
+            }
+
+            button {
+                margin-left: 0.2rem !important;
+            }
+        }
+    }
+
+
+    &_body {
+        flex: 0.9;
+        display: flex;
+        background-color: #eee;
+
+        &_data {
+            flex: 0.35;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;          //for centerize
+
+            .jumbotron {
+                img {
+                    width: 23rem;
+                    height: 23rem;
+                    object-fit: contain;
+                    margin-top: 2rem;
+                }
+
+                //sample jumbotron code
+                position: relative;
+                padding:0 !important;
+                background: white;
+                text-align:center;
+                margin-bottom: 0 !important;
+                background-color: transparent !important;
+                font-family: myfont;
+                letter-spacing: 0.0275rem;
+                word-spacing: 0.0275rem;
+                .container-fluid{
+                    padding:0 !important;
+                }
+                .col-xs-4{
+                    background:rgba(157,52,99,0.7);
+                }
+                //sample jumbotron code
+    
+                i {
+                    font-weight: bold;
+                }
+
+                .container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: myfont;
+                    margin-top: 1.1rem;
+    
+                    button {
+                        cursor: pointer;
+                        border-radius: 5px;
+                        margin-left: 0.605rem;
+                        width: 5.625rem;
+                        margin-right: 0.5rem;
+                        font-weight: bold;
+                        letter-spacing: 0.075rem;
+                        word-spacing: 0.025rem;
+                        color: #5bc0de !important;
+                        background-color: #000000;
+                        &:hover {
+                            color: #000000 !important;
+                            background-color: #5bc0de;
+                            /* Animation */
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+            }
+
+            .jumbotron2 {
+                h1 {
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                }
+
+                .lead {
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+            }
+        }
+
+        &_list {
+            flex: 0.65;
+
+            .ifempty {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;          //for centerize
+                p {
+                    font-family: myfont;
+                    font-size: 2rem;
+                }
+            }
+
+            .ifnotempty {
+                height: 100%;          //for centerize
+                #no {
+                    font-family: myfont;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+
+                #username {
+                    font-family: myfont;
+                    font-size: 1.2rem;
+                    text-transform: capitalize;
+                }
+
+                #details {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    div {
+                        background-color: transparent;
+                        button {
+                            &:hover {
+                                /* Animation */
+                                transition: all 0.5s;
+                            }
+                        }
+                    }
+
+                    table {
+                        width: 85%;
+                        margin-top: -0.2rem;
+                        th, td {
+                            border: 1px solid rgb(71, 71, 71);
+                            font-family: myfont;
+                        }
+                        th {
+                            width: 25%;
+                            font-weight: bold;
+                        }
+                        td {
+                            width: 75%;
+                            text-align: center;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+
+
+    &_footer {
+        .footer {
+            height: 4rem;
+            a {
+                color: inherit;
+                font-size: 0.9rem;
+                transition-duration: 0.25s;
+                &:hover {
+                    color: #FA944B;
+                }
+            }
+        
+            .footer-copyright {
+                font-size: 0.825rem;
+            }
+        }
+    }
+}

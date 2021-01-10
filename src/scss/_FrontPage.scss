@@ -1,0 +1,102 @@
+.frontpage {
+    //for cover entire screen of any size
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    //for cover entire screen of any size
+
+
+    background-image: url('../images/wallpaper1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    display: flex;
+    flex-direction: column;
+
+    &_header {
+        flex: 0.1;
+
+        .header {
+            height: 4rem;
+            background-color: transparent !important;
+            .toolbar {
+                display: flex;
+                align-items: center;
+    
+                &_heading {
+                    flex: 1;
+                    font-family: myfont;
+                    font-size: 1.7rem;
+                    letter-spacing: 0.075rem;
+                    word-spacing: -0.0225rem;
+                    cursor: pointer;
+                }
+
+                button {
+                    margin-left: 0.2rem !important;
+                }
+            }
+        }
+    }
+
+
+    &_body {
+        flex: 0.9;
+
+        width: 29.55rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        div {
+            flex: 0.9;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+
+            .p1 {
+                width: 65.95%;
+                font-size: 8.25rem;
+                font-family: myfont;
+                letter-spacing: 0;
+            }
+            .p2 {
+                width: 100%;
+                text-align: center;
+                font-family: myfont;
+                p {
+                    margin-top: 0.65rem;
+                }
+            }    
+        }
+
+        margin-left: 3.45rem;
+        margin-top: -7rem;
+    }
+    
+
+    &_footer {
+        .footer {
+            height: 4rem;
+            a {
+                color: inherit;
+                font-size: 0.9rem;
+                transition-duration: 0.25s;
+                &:hover {
+                    color: #FA944B;
+                }
+            }
+        
+            .footer-copyright {
+                font-size: 0.825rem;
+            }
+        }
+    }
+}

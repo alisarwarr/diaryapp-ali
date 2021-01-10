@@ -1,0 +1,140 @@
+@import './FrontPage.scss';
+@import './SigninPage.scss';
+@import './SignupPage.scss';
+@import './UsersPage.scss';
+@import './DiariesPage.scss';
+@import './Responsive/Responsive.scss';
+
+
+
+
+
+
+* {
+    margin: 0;
+    overflow-x: hidden !important;
+    overflow-y: hidden;
+    
+    button {
+        outline: none !important;
+    }
+    a {
+        text-decoration: none !important;
+        &:hover {
+            color: #a57552;
+        }
+    }
+    #design {
+        font-family: myfont;
+    }
+    #image {
+        background-image: url('../images/wallpaper3.png');
+    }
+    #btns {
+        br {
+            display: none;
+        }   
+    }
+    #read {
+        overflow-y: auto !important;
+        .modal {
+            &_title {
+                font-family: myfont;
+                font-size: 1.75rem;
+            }
+    
+            &_notes {
+                font-family: myfont;
+                text-align: justify;
+                letter-spacing: 0.3px;
+            }
+        }
+    }
+    .full {
+        &_width {
+            flex: 1 !important;
+        }
+    }
+    .styled {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: 20.5% !important;
+        }
+    }
+}
+@font-face {
+    src: url("./myfont.ttf");
+    font-family: myfont;
+}
+
+
+
+
+
+
+#darkRespectText {
+    color: #000000 !important;
+}
+#lightRespectText {
+    color: #5bc0de !important;
+}
+#darkRespectTextOutlined {
+    color: #000000 !important;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #5bc0de;
+}
+#lightRespectTextOutlined {
+    color: #5bc0de !important;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+}
+#darkRespectAll {
+    color: #5bc0de !important;
+    background-color: #000000;
+
+    button {
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 0.605rem;
+        width: 5.625rem;
+        margin-right: 0.5rem;
+        font-weight: bold;
+        letter-spacing: 0.075rem;
+        word-spacing: 0.025rem;
+        color: #000000 !important;
+        background-color: #5bc0de;
+        &:hover {
+            color: #5bc0de !important;
+            background-color: #000000;
+            /* Animation */
+            transition: all 0.3s;
+        }
+    }
+}
+#lightRespectAll {
+    color: #000000 !important;
+    background-color: #5bc0de;
+
+    button {
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 0.605rem;
+        width: 5.625rem;
+        margin-right: 0.5rem;
+        font-weight: bold;
+        letter-spacing: 0.075rem;
+        word-spacing: 0.025rem;
+        color: #5bc0de !important;
+        background-color: #000000;
+        &:hover {
+            color: #000000 !important;
+            background-color: #5bc0de;
+            /* Animation */
+            transition: all 0.3s;
+        }
+    }
+}
